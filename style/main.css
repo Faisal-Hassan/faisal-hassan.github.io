@@ -2,8 +2,12 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: url('../tile-sets/bb/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #000000;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -101,13 +105,16 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #000000;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
 
 strong.important {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+   }
 
 hr {
   border: none;
